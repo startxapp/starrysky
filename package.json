@@ -1,0 +1,40 @@
+{
+  "name": "starrysky",
+  "version": "1.0.0",
+  "description": "Dynamic starry sky animation with meteors and smooth rotation",
+  "main": "dist/starrysky.umd.js",
+  "module": "dist/starrysky.esm.js",
+  "unpkg": "dist/starrysky.min.js",
+  "jsdelivr": "dist/starrysky.min.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+  "type": "git",
+    "url": "https://github.com/startxapp/starrysky.git"
+  },
+  "homepage": "https://github.com/startxapp/starrysky#readme",
+  "bugs": {
+    "url": "https://github.com/startxapp/starrysky/issues"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "stars",
+    "animation",
+    "canvas",
+    "sky",
+    "background",
+    "meteor",
+    "javascript",
+    "visual"
+  ],
+  "author": "StarTX",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "rollup": "^4.60.2"
+  }
+}

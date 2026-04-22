@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Starrysky Demo</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(ellipse at bottom, #0d1b2a 0%, #000000 100%);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.7;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+<div class="content">
+  <div>
+    <h1>Starrysky.js</h1>
+    <p>Dynamic starfield with meteors</p>
+  </div>
+</div>
+
+<div class="footer">
+  Move your eyes, not the sky
+</div>
+
+<script src="../dist/starrysky.min.js"></script>
+<script>
+  Starrysky({
+    starDensity: 0.0015,
+    rotationSpeed: 0.0002,
+    fadeDuration: 2500,
+    enableMeteors: true,
+    meteorMinDelay: 8000,
+    meteorMaxDelay: 18000,
+    canvasZIndex: -1
+  });
+</script>
+
+</body>
+</html>

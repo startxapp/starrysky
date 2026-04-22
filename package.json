@@ -1,6 +1,6 @@
 {
   "name": "@startxapp/starrysky",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dynamic starry sky animation with meteors and smooth rotation",
   "main": "dist/starrysky.umd.js",
   "module": "dist/starrysky.esm.js",

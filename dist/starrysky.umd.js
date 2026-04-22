@@ -1,12 +1,12 @@
 /**
- * Starrysky.js v1.0.0
+ * Starrysky.js v1.0.2
  * 
  * Sistema de Céu Estrelado Dinâmico com Meteoros
  * Copyright (c) 2026 StarTX
  * 
  * @license MIT
  * @author StarTX
- * @version 1.0.0
+ * @version 1.0.2
  */
 
 (function (global, factory) {

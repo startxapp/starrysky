@@ -14,7 +14,7 @@ npm i @startxapp/starrysky
 Or via CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@startxapp/starrysky@1.0.0/dist/starrysky.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@startxapp/starrysky@1.0.2/dist/starrysky.min.js"></script>
 ```
 
 ---
@@ -190,3 +190,4 @@ This project is licensed under the MIT License – see the [LICENSE](./LICENSE) 
 ## Author
 
 **StarTX**
+*app@tx.app.br*

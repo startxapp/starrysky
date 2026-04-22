@@ -1,6 +1,6 @@
 {
   "name": "starrysky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic starry sky animation with meteors and smooth rotation",
   "main": "dist/starrysky.umd.js",
   "module": "dist/starrysky.esm.js",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "repository": {
-  "type": "git",
+    "type": "git",
     "url": "https://github.com/startxapp/starrysky.git"
   },
   "homepage": "https://github.com/startxapp/starrysky#readme",
